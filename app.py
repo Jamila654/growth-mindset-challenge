@@ -10,7 +10,7 @@ st.header("Code Seekho, Seekh ke Maidaan Maaro!")
 st.subheader("What's Your Biggest Coding Challenge?")
 
 # User Input for Coding Challenge
-user_input = st.text_input("✍ Aapki sabse badi coding challenge kya hai?", key="challenge_input")
+user_input = st.text_input("✍ Aapki sabse badi coding challenge kya hai?")
 
 if user_input:
     st.success(f"Great! {user_input} solve kerna apke growth ka part hai! Keep going! 💪")
